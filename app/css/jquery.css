@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start; }
+  body #wrapper {
+    flex: 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
+    body #wrapper main {
+      flex: 1 100%; }
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px 4px; }
+  .gallery .row {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 4px; }
+    .gallery .row .column {
+      flex: 25%;
+      max-width: 25%; }
+      .gallery .row .column img {
+        width: 95%;
+        cursor: pointer; }
+
+img.selected {
+  border: 1px solid #000; }
+
+/* images in 2 columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50% !important;
+    max-width: 50% !important; } }
+
+/* images in 1 column */
+@media (max-width: 600px) {
+  .column {
+    flex: 100% !important;
+    max-width: 100% !important; } }
+
+#celebreties {
+  border: none; }
