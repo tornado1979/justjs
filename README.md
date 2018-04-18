@@ -11,7 +11,7 @@ gulp for merging css & js files, converting scss -> css, auto reload the page on
   - [gulp default](#gulp-default)
   - [run php](#run-php)
   - [gulp build](#gulp-build)
-- [Presentation video](#Presentation-video)
+- [Presentation video](#presentation-video)
 
 
 ## About
