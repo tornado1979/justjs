@@ -94,6 +94,9 @@ In order to do that, both ajax.php & data.json , should be served on a php serve
 For an easy installation of the Apache server, you cuold download and install Xampp(windows) or Mampp(macOs),
 these will guide you on a step by step procedure how to install the Apache server.
 
+- Download xampp : https://www.apachefriends.org/index.html
+- Download mampp : https://www.mamp.info/en/
+ 
 When the installation finished, a xampp console like below manages Apache server condition (start/stop)
 You press to start the server, normally on port 80.
 
