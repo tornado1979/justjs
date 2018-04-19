@@ -91,6 +91,15 @@ The page will reload if you make edits.<br>
 ### `run php`
 The application makes a request to a php file in order to get the json data.
 In order to do that, both ajax.php & data.json , should be served on a php server, e.g. apache.
+For an easy installation of the Apache server, you cuold download and install Xampp(windows) or Mampp(macOs),
+these will guide you on a step by step procedure how to install the Apache server.
+
+When the installation finished, a xampp console like below manages Apache server condition (start/stop)
+You press to start the server, normally on port 80.
+
+![gulp build](readme_images/xampp.png)
+
+Final steps is to go into `httpdocs` folder and paste the `ajax` folder.
 
 ### `gulp build`
 
